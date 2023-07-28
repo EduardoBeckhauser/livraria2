@@ -1,18 +1,18 @@
-[tool.pdm]
-
-[tool.pdm.dev-dependencies]
-dev = [
-    "black>=23.3.0",
-]
 [project]
 name = ""
 version = ""
 description = ""
 authors = [
-    {name = "Eduardo Beckhauser", email = "eduardololamorim235@gmail.com"},
+    {name = "Eduardo", email = "eduardololamorim235@gmail.com"},
 ]
 dependencies = [
-    "django>=4.2.1",
+    "django>=4.2.3",
+    "djangorestframework>=3.14.0",
+    "django-cors-headers>=4.0.0",
+    "djangorestframework-simplejwt>=5.2.2",
+    "setuptools>=68.0.0",
 ]
 requires-python = ">=3.10"
-license = {text = "n"}
+license = {text = "MIT"}
+
+[tool.pdm]
